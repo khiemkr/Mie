@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="love.css">
-    <title>Document</title>
+    <title>Mie</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -16,15 +16,15 @@
                 <div class="handsCat">
                     <img src="../image/handsCat.png" alt="">
                 </div>
-                <h1>Welcome</h1>
+                <h1>Happy 20/10</h1>
             </div>
             <div class="boxSlider">
                     <div class="listSlider">
-                        <div class="slider">
+                        <!-- <div class="slider">
                             <img src="../image/love1.jfif" alt="">
-                        </div>
+                        </div> -->
                         <div class="slider">
-                            <img src="../image/love2.png" alt="">
+                            <img src="../image/335600493_527556009296645_7076353670974758353_n.jpg" alt="">
                         </div>
                     </div>
                 <div class="left">
@@ -38,7 +38,7 @@
                 <div class="handsCatImgInput">
                     <img src="../image/handsCat.png" alt="">
                 </div>
-                <input type="text" id="inputField" placeholder="Nhập tên..." readonly>
+                <input type="text" id="inputField" placeholder="Trang Mie (^-^)" readonly>
             </div>
             <div class="buttonLove">
                 <div class="cricleBtn"></div>
@@ -202,8 +202,8 @@
                 document.querySelector(".button").style.height = "30px"
             },3500)
             setTimeout(()=>{
-                document.querySelector(".button").innerHTML = "Nhận thư (chọn 1 lá nhé)"
-            },1000)
+                document.querySelector(".button").innerHTML = "Nhận thư(chọn 1 lá)"
+            },10)
         }
     }
 
@@ -243,7 +243,7 @@
     // chữ của thư bạn muốn gửi
     let indexTextContent = 0;
     let textLetterContent = document.querySelector('.contentLetter');
-    const textLetterP = "Có thể trên thế giới không có gì gọi là công bằng nhưng sẽ có thứ gọi là cân bằng.Vết thương cơ thể, vết thương tâm lí của em, rồi một ngày anh sẽ đến bên em và nói với em rằng, anh không có năng lực quay ngược quá khứ đê chữa lành vết thương cho em, nhưng hiện tại hãy để anh bù đắp cho em tất cả. Yêu em!";
+    const textLetterP = "Nhân ngày 20/10, anh chúc em luôn vui và nở những nụ cười đẹp nhất.Mong điều đẹp nhất sẽ đến với em trong hôm nay và cả những ngày sau.";
     let timoutTextLetterContent;
     function textCharLetterContent(){
         if (indexTextContent < textLetterP.length) {
@@ -287,7 +287,7 @@
             letters.style.transform = `rotate(${rotate}deg)`;
             setTimeout(()=>{
                 letters.style.top = "100%";
-            },1000)
+            },100)
             setTimeout(()=>{
                 letters.remove()
             },11000)

@@ -102,7 +102,7 @@ body{
     transform-origin: top left;
     padding-top: 5px;
     color: #fff;
-    font-size: 50px;
+    font-size: 38px;
     font-family: 'Dancing Script', cursive;
     animation: textHand 1.5s 6s forwards ease-in;
 }
@@ -137,7 +137,7 @@ body{
 .boxSlider .left, .boxSlider .right{
     position: absolute;
     top: 50%;
-    color: #fff;
+    color: transparent;
     transform: translateY(-50%);
     font-size: 30px;
     cursor: pointer;
@@ -193,7 +193,7 @@ body{
     border-radius: 5px;
     padding: 0px 10px;
     font-family: 'Dancing Script', cursive;
-    font-size: 20px;
+    font-size: 18px;
     z-index: 11;
     opacity: 0;
     animation: boxSlider 1s 9s forwards ease-out;
